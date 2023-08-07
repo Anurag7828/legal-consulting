@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUST JUSTICES LOGINPAGE</title>
+   
+    <style>
+
+body
+    {
+        background-image: url("702858.jpg");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        color:#fff;
+        border-radius: 10px;
+    }
+    
+   
+    FORM{
+        
+background-color:rgba(0,0,0,0.3) ;
+font-size: 10px;
+WIDTH:250PX;
+PADDING:20PX;
+margin-top:150px;
+margin-left: 460px;
+
+FONT-SIZE:20PX;
+    }
+.formpage{
+    top: 30%;
+
+}
+
+
+    
+.heading
+{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+    
+
+    
+    p{
+        margin-bottom: auto;
+        top: 200%;
+    }
+
+
+.just #email_error,#pass_error{
+    margin-top:0px; 
+    width: 200px;
+    font-size: 15px;
+    color:#c62828;
+    background:lightsalmon;
+    text-align: center;
+    padding: 03px 25px;
+    
+    border-radius: 3px; 
+    border: 0px solid #f97d7d;
+    display: none; 
+}
+    button[TYPE="SUBMIT"]{
+        width: 245px;
+        font-size: 20px;
+        BACKGROUND:rgb(0, 89, 255);
+        COLOR:WHITE;
+        padding:1px;
+        border-color: rgb(0, 89, 255);
+        margin-left: 2px;
+        cursor: pointer;
+    }
+    .formpage #loinb:hover{
+       background:#4c7bd1
+    }
+    INPUT[TYPE="TEXT"]{
+    WIDTH:200PX;
+    padding-right:42px;
+    padding-top: 3px;
+    
+}
+
+INPUT[TYPE="PASSWORD"]{
+WIDTH:200PX;
+padding-right:42px;
+padding-top: 3px;
+}
+
+    </style>
+</head>
+<body >
+<div class="heading">
+<H1>JUST JUSTICES</H1>
+<H5>LAW COUNSALTENT SITE</H5></div>
+<div class="formpage">
+ <FORM class="just" action="HOMEPAGE.HTML" method="post" name="form" onsubmit="return login()">
+
+    <FONT SIZE="5"><H3 ALIGN="center">WELCOME</H3></FONT> 
+
+    <P ALIGN="center">
+   
+        <INPUT TYPE="TEXT" NAME="email" PLACEHOLDER="                    ENTER EMAIL            ">
+            <DIV id="email_error" ><small>Please fill up your email </small></DIV><BR>
+        <INPUT TYPE="password" NAME="password" PLACEHOLDER="                ENTER PASSWORD       ">
+            <DIV id="pass_error" ><SMALL>Please fill up your password</SMALL></DIV><BR>   <BR>
+                
+
+        <button  id="loinb" type="submit">login</button> <BR>
+  
+  
+                <A HREF="RESET PASSWORD.HTML" TARGET="_MAIN"><H6 ALIGN="CENTER"><font color="white">RESET PASSWORD?</font></H6></A>
+            </P>
+    <H6> <P ALIGN="center">DO NOT HAVE AN ACCOUNT<A HREF="RAGESTATIONPAGE.HTML" TARGET="_MAIN">SING IN</A></P></H6>
+    <HR>
+        <footer ALIGN="center"><B>CONTACT -  <A HREF="just.in@gmail.com" >just.in@gmail.com</A></B></footer>
+        <HR>
+</FORM></div>
+<script src="login.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Justices.in</title>
+  <link rel="stylesheet" type="text/css" href="tab1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+.nav1{
+    width:89.8%;
+    height: 85px;
+    background:rgb(148, 159, 169);
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 75px;
+    margin-left: 0px;
+}
+
+.search{
+    margin-top:4px ;
+    float: right;
+    margin-right: 30px;
+}
+input[type=text]{
+    padding: 7px;
+    border:none;
+    font-size: 16px;
+    width: 300px;
+}
+button{
+    float: right;
+    background: orange;
+    color: aliceblue;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+}
+ .icon{
+    color: aliceblue;
+ }
+
+.menu
+a{
+    text-decoration: none;
+    color: black;
+    padding: 35px 20px;
+}
+.menu a:hover{
+    background:  white;
+    color:  rgb(255, 162, 0);
+}
+@media screen and (max-width:1000px){
+    .nav1 a{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+
+</style>
+</head>
+<body >
+    
+<nav class="nav1">
+    <div class="icon"> <b><H1>J<b style="color: orange;">U</b>S<b style="color: orange;">T</b><br> <B> J<b style="color: orange;">U</b>S <b style="color: orange;">T</b>I<b style="color: orange;">C</b>E<b style="color: orange;">.</b>.<b style="color: orange;">.</b></B></H1></b></div>
+
+    <form class="search">
+        
+               
+        
+        <input type="text" placeholder="Search.." name="search">
+        <button>Search</button>
+    </form>
+
+    <div class="menu">
+        <a href="HOMEPAGE.HTML"><i class="fa fa-home"></i>Home</a>
+        <a href="lawyer.html"><i class="	fa fa-id-badge"></i>Lawyer Registration</a>
+         <a href="about.html"><i class="fa fa-file-text-o"></i>About</a>
+        <a href="contact.html"><i class="fa fa-envelope"></i>Contact</a>
+        <a href="INDEX.HTML"><i class="	fa fa-power-off"></i>Logout</a>
+
+        <a href="feedback.html"><i class="	fa fa-comments"></i>Feedback</a>
+
+    </div>
+</nav>
+
+<div class="tabcontainer">
+    <div class="buttoncontainer">
+        <button onclick="showPanel(0,'rgba(0,0,0,0.3)')"><i class="	fa fa-user-circle"></i>FOR USER</button>
+        <button onclick="showPanel(1,'rgba(0,0,0,0.3)')"><i class="fa fa-graduation-cap"></i>FOR STUDENT</button>
+
+    </div>
+    <div class="tabpanel">
+        <div class="advice"><img  src="advise.jpg"  width="292.3px" height="190px" ><a class="advice1" href="online.html">Online Advice</a>
+    
+
+        </div>
+            <div class="advice">
+        <img src="doc.jpg"  width="292px" height="190px"><a class="advice2" href="legaldoc.html">Legal Document</a>
+    </div>
+    
+    
+    </div>
+    <div class="tabpanel">
+        <div class="advice01"><img  src="reg.jpg"  width="293px" height="190px" ><a class="advice3" href="student2.html">Register</a>
+    
+
+        </div>
+            <div class="advice01">
+        <img src="ebook.jpg"  width="295px" height="190px"><a class="advice4" href="ebook.html">eBOOK</a>
+    </div>
+    <div class="advice01">
+        <img src="video.jpg"  width="294px" height="190px"><a class="advice5" href="youtube.html">StudyVideo</a>
+    </div>
+    
+    
+    </div>
+</div>
+
+<script src="tab.js"></script>
+
+</body>
+</html>

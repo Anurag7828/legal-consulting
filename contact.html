@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+ color: aliceblue;
+}
+
+.nav1{
+    width:100%;
+    height: 85px;
+    background:rgb(148, 159, 169);
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.menu i{
+    color: #181717;
+}
+
+button{
+    float: right;
+    color: aliceblue;
+    
+}
+ .icon{
+    color: aliceblue;
+ }
+
+.menu
+a{
+    text-decoration: none;
+    color: black;
+    padding: 35px 20px;
+}
+.menu a:hover{
+    background: rgb(242, 245, 239);
+    color: rgb(255, 162, 0);
+}
+.body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    width: 360px;
+    background: #000;
+    box-shadow: 0 0 8px rgba(250,250,250,0.6);
+    opacity: 0.6;
+
+}
+
+ form input { 
+    width: 100%;
+    height: 50px;
+    margin: 4px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    padding: 0 15px;
+    font-size: 20px;
+
+}
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+    padding-bottom: 100px;
+    margin-top: 0;
+}
+form h1{
+    padding: 10px 0;
+
+}
+form .id{
+    position: relative;
+}
+
+.id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+form textarea{
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 4.5px;
+}
+
+form button{
+    margin-top: 5px;
+    border: none;
+    background: darkorange;
+    color: #181717;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form button:hover{
+    background:white;
+    color: orange;
+
+}
+form input:focus,form textarea:focus{
+    border: 1px solid orange;
+    color: orange;
+    transition: all 0.3s ease;
+
+}
+form input:focus::placeholder,form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: orange;
+    transition: all 0.3s ease;
+}
+form input:focus + i {
+    color: orange;
+    transition: all 0.3s ease;
+
+}
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(feed.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) brightness(30%);
+}
+
+
+    </style>
+
+</head>
+<body>
+    <nav class="nav1">
+        <div class="icon"> <b><H1>J<b style="color: orange;">U</b>S<b style="color: orange;">T</b><br> <B> J<b style="color: orange;">U</b>S <b style="color: orange;">T</b>I<b style="color: orange;">C</b>E<b style="color: orange;">.</b>.<b style="color: orange;">.</b></B></H1></b></div>
+    
+        
+    
+        <div class="menu">
+            <a href="HOMEPAGE.HTML"><i class="fa fa-home"></i>Home</a>
+             <a href="about.html"><i class="fa fa-file-text-o"></i>About</a>
+            <!-- <a href="HOMEPAGE.HTML"><i class="fa fa-envelope"></i>Contact</a> -->
+    
+            <a href="feedback.html"><i class="	fa fa-comments"></i>Feedback</a>
+    
+        </div>
+    </nav>
+    <div class="body">
+        <section></section>
+    <div class="container">
+    <form action="">
+        <h1><i class="fa fa-envelope"></i>CONTACT US</h1><br>
+    <div class="id">
+    <input type="text" placeholder="Full Name">
+    <i class="fa fa-user"></i></div><br>
+<div class="id">
+    <input type="email" placeholder="Enter Email">
+    <i class="fa fa-envelope"></i>  <br> 
+</div>
+<div class="id">
+    <input type="number" placeholder="Mobile No.">
+    <i class="fa fa-id-badge"></i>   </div><br>
+    <div class="id">
+<INPUT LIST="type" placeholder="Message Type">
+<DATALIST id="type" >
+<OPTION VALUE="General">
+<OPTION VALUE="Complaint">
+<OPTION VALUE="Advertisement">
+<OPTION VALUE="Suggestion">
+<OPTION VALUE="Bug Report">
+<OPTION VALUE="Testimonial">
+
+</DATALIST><BR><BR>
+    </div>
+<textarea cols="15" rows="5" placeholder="Enter Your Message Here.........." ></textarea>
+<button>Send</button>
+
+
+ </form>
+</div>
+</div>
+</body>
+</html>

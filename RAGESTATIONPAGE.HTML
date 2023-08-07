@@ -1,0 +1,116 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<TITLE>REGISTERATIONPAGE</TITLE>
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:lightskyblue;  
+}  
+.container {  
+    padding: 30px;  
+  background-color: WHITE;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: lightskyblue;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid black;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: lightskyblue;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form  method="post" onsubmit="return signup"> 
+  <center>  <H1><b>JUST JUSTICE </b></H1></center>  
+  <div class="container"> 
+    
+  <center>  <h2>  REGISTERATION FORM</h2> </center>  
+  <hr>  
+  <label> Full Name </label>   
+<input type="text" name="firstname" class="form" id="name" placeholder= "Firstname" size="15" required autofocus/>   
+<div class="form" id="gender">  
+<label  >   
+Gender :  
+</label><br>  
+<input type="radio"   value="Male" name="gender" checked > Male   
+<input type="radio"   value="Female" name="gender"> Female   
+<input type="radio"  value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Mobile no. :  
+</label>  
+<input type="text" name="country code" class="form" id="mobile " placeholder="Country Code"  value="+91" size="2"/>   
+ 
+Current Address :  
+<textarea cols="80" rows="5" class="form" id="address" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email">Email:</label>  
+ <input type="text" class="form" id="email" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw">Password:</label>  
+    <input type="password" class="form" id="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat">Re-type Password:</label>  
+    <input type="password" class="form" id="re-type "  placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn" onclick="ALTER('SUBMITTED')">SUBMIT</button>    
+</form>  
+
+<!-- <script>
+  function signup(){
+    var name = document.getElementById("name").value;
+    var name = document.getElementById("gender").value;
+    var name = document.getElementById("mobile").value;
+    var name = document.getElementById("address").value;
+    var name = document.getElementById("password").value;
+    var name = document.getElementById("re-type").value;
+
+
+    localStorage.setItem("name1",name)
+    localStorage.setItem("gender1",gender)
+    localStorage.setItem("mobile1",mobile)
+    localStorage.setItem("address1",address)
+    localStorage.setItem("password1",password)
+    localStorage.setItem("retype1",re-type)
+
+
+    document.getElementById("name").value="";
+    document.getElementById("gender").value="";
+    document.getElementById("mobile no.").value="";
+    document.getElementById("address").value="";
+    document.getElementById("password").value="";
+    document.getElementById("re-type password").value="";
+
+    alert("registration successfully.....!!!!");
+
+  }
+</script> -->
+</body>  
+</html>  

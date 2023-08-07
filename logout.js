@@ -1,0 +1,7 @@
+
+ function closewindow ()
+    {
+        window.close();
+
+    }
+    

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Ragestration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+        *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+.nav1{
+    width:89.8%;
+    height: 85px;
+    background:rgb(148, 159, 169);
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 75px;
+    margin-left: 0px;
+}
+
+button{
+    float: right;
+    color: aliceblue;
+    
+}
+ .icon{
+    color: aliceblue;
+ }
+
+.menu
+a{
+    text-decoration: none;
+    color: black;
+    padding: 35px 20px;
+}
+.menu a:hover{
+    background: rgb(242, 245, 239);
+    color: rgb(255, 162, 0);
+}
+
+body{
+    background: url(lawyer2.jpg);
+    background-size: cover;
+    
+
+}
+
+
+    .form{
+
+        /* background-color:  rgb(247, 249, 251); */
+        background: #000;
+    box-shadow: 0 0 8px rgba(250,250,250,0.6);
+    opacity: 0.6;
+        margin-left: 33%;
+        margin-right: 33%;
+        padding-left:1.5% ;
+        padding-right:1% ;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: large;
+ color:white;
+    }
+    .non{
+        border-style: dashed;
+border-color: rgb(252, 253, 255);
+border-width: 2px;
+box-sizing: content-box;
+    }
+    .form2{
+background-color: orange;
+margin-left: 33%;
+margin-right: 33%;
+padding-left:2% ;
+padding-right:1% ;
+padding-top: 2%;
+padding-bottom: 3%;
+font-size: large;
+
+}
+input[type=text], input[type=number] ,textarea{
+    width:95%;
+    padding:1%;
+}
+.save{
+    /* float: left; */
+    color: black;
+    /* padding-left: 3.5%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;  */
+ cursor: pointer;
+    /* margin-left: 50%;
+    margin-top: 10%; */
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
+    text-align: center;
+}
+.save button:hover{
+    background: darkgoldenrod;
+    color: white;
+}
+ 
+.save {
+    float: left;
+    width: 20%;
+    padding: 5px ;
+    padding-top: 1%;
+    padding-left: 7px;
+    
+margin-top: 15%;
+    margin-left:20%;
+
+  }
+  
+  /* Clear floats after image containers */
+  .form3::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.form3{
+    /* background-color:  rgb(252, 253, 255); */
+    background: #000;
+    box-shadow: 0 0 8px rgba(250,250,250,0.6);
+    opacity: 0.6;
+    margin-left: 33%;
+        margin-right: 33%;
+        padding-left:1.5% ;
+        padding-right:1% ;
+        padding-top: 5%;
+        padding-bottom: 1%;
+        font-size: large;
+        color: aliceblue;
+}
+
+
+
+</style>
+
+
+
+</head>
+<body>
+    <nav class="nav1">
+        <div class="icon"> <b><H1>J<b style="color: orange;">U</b>S<b style="color: orange;">T</b><br> <B> J<b style="color: orange;">U</b>S <b style="color: orange;">T</b>I<b style="color: orange;">C</b>E<b style="color: orange;">.</b>.<b style="color: orange;">.</b></B></H1></b></div>
+    
+        
+    
+        <div class="menu">
+            <a href="HOMEPAGE.HTML"><i class="fa fa-home"></i>Home</a>
+             <a href="about.html"><i class="fa fa-file-text-o"></i>About</a>
+            <a href="contact.html"><i class="fa fa-envelope"></i>Contact</a>
+    
+            <a href="feedback.html"><i class="	fa fa-comments"></i>Feedback</a>
+    
+        </div>
+    </nav>
+    <section></section>
+ <div class="registration">
+   
+    <form class="form">
+        <h2><i class="fa fa-edit"></i>LAWYER REGISTRATION</h2>
+        <hr> <br>  <br> 
+        <label> Firstname </label>   <br>  <br> 
+<input type="text" name="first name" placeholder= "First name" size="15" required autofocus/> <br>  <br> 
+<label> Lastname: </label>    <br> <br> 
+<input type="text" name="last name" placeholder="Last name" size="15"required />  <br> <br>  
+
+<div>  
+    <label>   
+    Gender :  
+    </label><br>   <br> 
+    <input type="radio" value="Male" name="gender" checked > Male   
+    <input type="radio" value="Female" name="gender"> Female   
+    <input type="radio" value="Other" name="gender"> Other <br> 
+    <br> 
+    
+<label>   
+    Mobile no. :  
+    </label>  <br> <br> 
+    <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>  <br>  <br>
+
+    <br> 
+ <label for="email">Email:</label>    <br> <br> 
+ <input type="text" placeholder="Enter Email" name="email" required>    <br> <br> 
+  
+    <label for="psw">Password:</label>    <br> <br> 
+    <input type="password" placeholder="Enter Password" name="psw" required> <br>     <br>
+  
+    <label for="psw-repeat">Confirm Password:</label>    <br>  <br>
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>   <br>   <br>
+
+    Current Address : <br>   <br>
+    <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+    </textarea>  <br> <br> 
+
+    
+    
+ <label for="website">Website:</label>    <br>  <br>
+ <input type="text" placeholder="your website Eg:www.justjustices.in" name="website" required>  <br>    <br>
+
+ 
+    
+ <label for="City">Practicing City:</label>  <br>    <br>
+ <input type="text" placeholder="your City Eg:Itarsi" name="city" required>    <br>  <br>
+
+ 
+ 
+    
+ <label for="City">Area/locality:</label>    <br>  <br>
+ <input type="text" placeholder="Location" name="city" required>   <br>   <br>
+ 
+ <label for="Code">PIN Code:</label>    <br>  <br>
+ <input type="number" name="code" required>  <br>    <br>
+
+ 
+ <label for="Details">Educational Details:</label>   <br>   <br>
+ <input type="text" name="Educational" required>  <br>    <br>
+
+ 
+ <label for="year">Experience (in years):</label>   <br>   <br>
+ <input type="number" name="year" required>  <br>    <br>
+
+ 
+    
+ <label for="text">Specialization:</label>   <br>   <br>
+ <input type="text" placeholder="Eg: family,property" name="text" required>   <br>   <br>
+ <label for="text">Practicing Courts:</label>   <br>   <br>
+ <input type="text" name="text" required>    <br>  <br>
+
+ <label for="text">Languages Known:</label> <br>     <br>
+ <input type="text" name="text" required>    <br>  <br>
+
+ 
+ <label for="text">Bar Council Number:</label>    <br>  <br>
+ <input type="text" name="text" required>    <br> <br> 
+ 
+  </form>
+ </div>  
+ <div class="payment">
+    <form class="form2">
+        <h4>Consulting Fee</h4>
+       <small> Please enter your expected consulting fee</small><br><br>
+       <b>Direct Consulting Fee (INR): </b><input type="number" name="payment" > <br>       <br>       
+       <b>Phone Consulting Fee (INR) :</b> <input type="number" name="payment" > <br>  <br> 
+       <b>Chat Consulting Fee (INR)  :</b><input type="number" name="payment" > <br> <br> <br> 
+
+         <div class="non">
+         <b>I am not interested in :</b><br><br>
+       <input type="checkbox" value="Direct Consulting" name="intereste"> Direct Consulting   
+       <input type="checkbox" value="Phone Consulting" name="intereste">    Phone Consulting
+       <input type="checkbox" value="Chat Consulting" name="intereste">  Chat Consulting
+         </form></div>
+    <form class="form3">
+    <input type="checkbox" value="Chat Consulting" name="intereste"><b style="color:rgb(255, 255, 255) ;">I agree the Terms and Conditions. I hereby declare & confirm that all the information given above is true only.</b>
+    <button type="submit" class="save" onclick="ALTER('SUBMITTED')">SAVE</button>    
+    <button type="cancel" class="save" onclick="ALTER('Try Again')">CANCEL</button>    
+    </form>
+
+ </div> 
+</body>
+</html>

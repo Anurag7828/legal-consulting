@@ -1,0 +1,163 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Studentregistration.in</title>
+<style>  
+              /* *{
+        margin: 0px;
+        padding: 0px;
+    } */
+
+    .nav1{
+    width:89.8%;
+    height: 85px;
+    background:rgb(148, 159, 169);
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 75px;
+    margin-left: 0px;
+}
+
+button{
+    float: right;
+    color: aliceblue;
+    
+}
+ .icon{
+    color: aliceblue;
+ }
+
+.menu
+a{
+    text-decoration: none;
+    color: black;
+    padding: 35px 20px;
+}
+.menu a:hover{
+    background: rgb(242, 245, 239);
+    color: rgb(255, 162, 0);
+}
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  /* background-color: pink;   */
+}  
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+.container {  
+    padding: 50px;  
+  /* background-color: lightblue;   */
+}  
+  
+input[type=text], input[type=number], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: orange;  
+  color: rgb(14, 10, 10);  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+    <nav class="nav1">
+        <div class="icon"> <b><H1>J<b style="color: orange;">U</b>S<b style="color: orange;">T</b><br> <B> J<b style="color: orange;">U</b>S <b style="color: orange;">T</b>I<b style="color: orange;">C</b>E<b style="color: orange;">.</b>.<b style="color: orange;">.</b></B></H1></b></div>
+    
+        
+    
+        <div class="menu">
+            <a href="HOMEPAGE.HTML"><i class="fa fa-home"></i>Home</a>
+             <a href="about.html"><i class="fa fa-file-text-o"></i>About</a>
+            <a href="contact.html"><i class="fa fa-envelope"></i>Contact</a>
+    
+            <a href="feedback.html"><i class="	fa fa-comments"></i>Feedback</a>
+    
+        </div>
+    </nav>
+<form>  
+  <div class="container">  
+  <center>  <h1><i class="	person"></i> Student Registeration Form</h1> </center>  
+  <hr>  
+  <label> Firstname :</label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Mobile No. :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+
+<label for="email">Email:</label>  
+<input type="text" placeholder="Enter Email" name="email" required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>   
+
+<label> PIN / ZIP Code: </label>    
+<input type="number" name="code" placeholder="46115" size="6"required /> 
+  
+
+<label>Current Institution Name:</label>   
+<input type="text" name="Institution" size="20" required />
+
+<label>Educational Details:</label>   
+<input type="text" name="Educational" size="50" required />
+
+<label>Current Course Name:</label>   
+<input type="text" name="Educational" size="10" required />
+
+
+<label> Current Year: </label>    
+<input type="number" name="code" size="5"required /> 
+
+<label>Specialization:</label>   
+<input type="text" name="Educational" placeholder="Eg: family,property" size="50" required /><br><br>
+
+
+<label> Upload Resume: </label>    
+<input type="file" name="file" ACCEPT="IMAGE" required /><br><br>
+
+
+<button type="submit" class="registerbtn">SUBMIT</button>    
+  
+</form>  
+</body>  
+</html>  

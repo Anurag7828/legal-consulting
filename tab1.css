@@ -1,0 +1,153 @@
+body{
+    background-image: url("152.jpg");
+/* background-attachment: fixed; */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+
+
+.tabcontainer{
+    width: 100%;
+    height: 350px;
+
+}
+
+.tabcontainer .buttoncontainer{
+    height: 15%;
+}
+
+.tabcontainer .buttoncontainer button{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background-color:rgb(209, 221, 231) ;
+    color: #4f61aa;
+
+}
+
+.tabcontainer .buttoncontainer button:hover{
+    background-color: #a4a7b0;
+}
+
+
+.tabcontainer .tabpanel{
+    height: 175%;
+
+    background-color: gray;
+    /* color: rgb(183, 184, 185); */
+    /* text-align: center; */
+    /* padding-top: 105px; */
+    /* padding-right: 55%; */
+    /* box-sizing: border-box; */
+    /* font-size: 22px; */
+    display: none;
+}
+/* .advice{
+    padding-left:49.5%;
+    padding-top: 7%;
+     */
+/* } */
+.advice1{
+    width: 900%;
+    height: 500%;
+    background-color:  orange;
+    color: aliceblue;
+    padding: 15px 90.09px ;
+    text-decoration: none;
+    /* margin-top: 200%;*/
+    margin-top: 100%;
+    margin-right:1%; 
+    font-size: larger;
+    cursor: pointer;
+}
+a:hover{
+    background: rgb(236, 211, 165);
+} 
+.advice {
+    float: left;
+    width: 20%;
+    padding: 1px ;
+    padding-top: 11%;
+    padding-left: 300px;
+
+  }
+  
+  /* Clear floats after image containers */
+  .tabpanel::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .advice2{
+    width: 900%;
+    height: 500%;
+    background-color:  orange;
+    color: aliceblue;
+    padding: 15px 81.5px ;
+    text-decoration: none;
+    /* margin-top: 200%;*/
+    margin-top: 100%;
+    margin-right:1%; 
+    font-size: larger;
+    cursor: pointer;
+}
+
+.advice3{
+    width: 900%;
+    height: 500%;
+    background-color:  orange;
+    color: aliceblue;
+    padding: 15px 116px ;
+    text-decoration: none;
+    /* margin-top: 200%;*/
+    margin-top: 100%;
+    margin-right:1%; 
+    font-size: larger;
+    cursor: pointer;
+}
+
+.advice4{
+    width: 900%;
+    height: 500%;
+    background-color:  orange;
+    color: aliceblue;
+    padding: 15px 116px ;
+    text-decoration: none;
+    /* margin-top: 200%;*/
+    margin-top: 100%;
+    margin-right:1%; 
+    font-size: larger;
+    cursor: pointer;
+}
+
+.advice5{
+    width: 900%;
+    height: 500%;
+    background-color:  orange;
+    color: aliceblue;
+    padding: 15px 103px ;
+    text-decoration: none;
+    /* margin-top: 200%;*/
+    margin-top: 100%;
+    margin-right:1%; 
+    font-size: larger;
+    cursor: pointer;
+}
+
+.advice01 {
+    float: left;
+    width: 10%;
+    padding: 1px ;
+    padding-top: 11%;
+    padding-left: 222px;
+}

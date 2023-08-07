@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
+
+  }  
+  #from{
+    width: 250px;
+    margin: 50px auto 0 auto;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: ghostwhite;
+    color: cadetblue;
+
+  }
+  p,input{
+    font-size: 25px;
+  }
+input{
+    width: 225px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:white;
+}
+</style>    
+
+</head>
+<body>
+    <div id="from">
+ <h2 id="h2">key boad event</h2>   
+   <p>1-on key up<br>                 
+    2-on key down<br>
+    3-on key press</p> 
+<input type="text" onkeydown="alert(this.value)" >
+<p>key blur</p>
+<input type="text" onblur="alert(this.value)" >
+</div>
+</body>
+</html>
